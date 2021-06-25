@@ -1,0 +1,14 @@
+name: graphriccicurvature
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python>=3.7
+- cython
+- numpy
+- scipy>=1.0
+- networkx>=2.4
+- pot
+- packaging
+- networkit>=6.1
+- python-louvain

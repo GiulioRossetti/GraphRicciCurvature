@@ -1,0 +1,35 @@
+package:
+  name: "GraphRicciCurvature"
+  version: "0.5.3"
+
+source:
+  git_rev: v0.5.3
+  git_url: https://github.com/GiulioRossetti/GraphRicciCurvature
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python
+    - setuptools
+  run:
+    - python>=3.7
+    - cython
+    - numpy
+    - scipy>=1.0
+    - networkx>=2.4
+    - pot
+    - packaging
+    - networkit>=6.1
+    - python-louvain
+about:
+  home: https://github.com/GiulioRossetti/GraphRicciCurvature
+  license: Apache License
+  license_familY: Apache
+  license_file: LICENSE.txt
+  summary: "This work computes the Ollivier-Ricci Curvature, Ollivier-Ricci Flow, Forman-Ricci Curvature(or Forman curvature), and Ricci community detected by Ollivier-Ricci flow metric."
+
+extra:
+  recipe-maintainers:
+    - GiulioRossetti

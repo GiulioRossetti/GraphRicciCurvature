@@ -1,9 +1,13 @@
 import setuptools
+from codecs import open
+from os import path
 
-with open('requirements.txt') as f:
+here = path.abspath(path.dirname(__file__))
+
+with open(path.join(here, 'requirements.txt')) as f:
     install_requires = f.read().strip().split('\n')
 
-with open("README.md", "r", encoding="utf8") as fh:
+with open(path.join(here, "README.md"), "r", encoding="utf8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
