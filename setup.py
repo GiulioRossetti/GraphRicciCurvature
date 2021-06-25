@@ -4,8 +4,7 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'requirements.txt')) as f:
-    install_requires = f.read().strip().split('\n')
+install_requires = ['cython', 'numpy', 'scipy', 'networkx', 'pot', 'networkit', 'python-louvain']
 
 with open(path.join(here, "README.md"), "r", encoding="utf8") as fh:
     long_description = fh.read()

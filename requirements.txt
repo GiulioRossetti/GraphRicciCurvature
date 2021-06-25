@@ -1,8 +1,7 @@
 cython
-numpy>=1.20
+numpy>=1.15
 scipy>=1.0
 networkx>=2.0
 pot
-packaging
 networkit>=6.1
 python-louvain

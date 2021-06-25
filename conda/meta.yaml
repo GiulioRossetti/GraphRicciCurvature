@@ -14,14 +14,13 @@ requirements:
     - python
     - setuptools
   run:
-    - python>=3.7
+    - python
     - cython
-    - numpy>=1.20
-    - scipy>=1.0
-    - networkx>=2.4
+    - numpy
+    - scipy
+    - networkx
     - pot
-    - packaging
-    - networkit>=6.1
+    - networkit
     - python-louvain
 about:
   home: https://github.com/GiulioRossetti/GraphRicciCurvature
